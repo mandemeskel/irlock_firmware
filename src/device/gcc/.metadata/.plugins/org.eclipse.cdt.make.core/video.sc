@@ -2,19 +2,23 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="com.crt.advproject.config.exe.release.1185040974;com.crt.advproject.config.exe.release.1185040974.;com.crt.advproject.cpp.exe.release.1684236021;com.crt.advproject.compiler.cpp.input.873729882">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/arm-none-eabi"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/backward"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include-fixed"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/backward"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=199711L"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
+<definedSymbol symbol="__GNUC__=5"/>
 <definedSymbol symbol="__GNUC_MINOR__=8"/>
+<definedSymbol symbol="__GNUC_MINOR__=4"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=4"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=1"/>
 <definedSymbol symbol="__VERSION__=&quot;4.8.4 20140526 (release) [ARM/embedded-4_8-branch revision 211358]&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;5.4.1 20160609 (release) [ARM/embedded-5-branch revision 237715]&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -39,6 +43,7 @@
 <definedSymbol symbol="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__SIZEOF_POINTER__=4"/>
 <definedSymbol symbol="__GNUG__=4"/>
+<definedSymbol symbol="__GNUG__=5"/>
 <definedSymbol symbol="__SIZE_TYPE__=unsigned int"/>
 <definedSymbol symbol="__PTRDIFF_TYPE__=int"/>
 <definedSymbol symbol="__WCHAR_TYPE__=unsigned int"/>
@@ -79,57 +84,96 @@
 <definedSymbol symbol="__GXX_RTTI=1"/>
 <definedSymbol symbol="__EXCEPTIONS=1"/>
 <definedSymbol symbol="__GXX_ABI_VERSION=1002"/>
+<definedSymbol symbol="__GXX_ABI_VERSION=1009"/>
 <definedSymbol symbol="__SCHAR_MAX__=127"/>
+<definedSymbol symbol="__SCHAR_MAX__=0x7f"/>
 <definedSymbol symbol="__SHRT_MAX__=32767"/>
+<definedSymbol symbol="__SHRT_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__LONG_MAX__=2147483647L"/>
+<definedSymbol symbol="__LONG_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__LONG_LONG_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__LONG_LONG_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__WCHAR_MAX__=4294967295U"/>
+<definedSymbol symbol="__WCHAR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WCHAR_MIN__=0U"/>
 <definedSymbol symbol="__WINT_MAX__=4294967295U"/>
+<definedSymbol symbol="__WINT_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WINT_MIN__=0U"/>
 <definedSymbol symbol="__PTRDIFF_MAX__=2147483647"/>
+<definedSymbol symbol="__PTRDIFF_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIZE_MAX__=4294967295U"/>
+<definedSymbol symbol="__SIZE_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__INTMAX_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INTMAX_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INTMAX_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINTMAX_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINTMAX_C(c)=c ## ULL"/>
 <definedSymbol symbol="__SIG_ATOMIC_MAX__=2147483647"/>
+<definedSymbol symbol="__SIG_ATOMIC_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)"/>
 <definedSymbol symbol="__INT8_MAX__=127"/>
+<definedSymbol symbol="__INT8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT16_MAX__=32767"/>
+<definedSymbol symbol="__INT16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__UINT8_MAX__=255"/>
+<definedSymbol symbol="__UINT8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT16_MAX__=65535"/>
+<definedSymbol symbol="__UINT16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__INT_LEAST8_MAX__=127"/>
+<definedSymbol symbol="__INT_LEAST8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT8_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST16_MAX__=32767"/>
+<definedSymbol symbol="__INT_LEAST16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT16_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT_LEAST32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT32_C(c)=c ## L"/>
 <definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_LEAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INT64_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINT_LEAST8_MAX__=255"/>
+<definedSymbol symbol="__UINT_LEAST8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT8_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST16_MAX__=65535"/>
+<definedSymbol symbol="__UINT_LEAST16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT16_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT_LEAST32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT32_C(c)=c ## UL"/>
 <definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_LEAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINT64_C(c)=c ## ULL"/>
 <definedSymbol symbol="__INT_FAST8_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST8_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST16_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST16_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST32_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST32_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_FAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__UINT_FAST8_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST8_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST16_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST16_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST32_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST32_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_FAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__INTPTR_MAX__=2147483647"/>
+<definedSymbol symbol="__INTPTR_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__UINTPTR_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINTPTR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__FLT_EVAL_METHOD__=0"/>
 <definedSymbol symbol="__DEC_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__FLT_RADIX__=2"/>
@@ -335,6 +379,7 @@
 <definedSymbol symbol="__SIZEOF_PTRDIFF_T__=4"/>
 <definedSymbol symbol="__ARM_SIZEOF_MINIMAL_ENUM=1"/>
 <definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=32"/>
+<definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=4"/>
 <definedSymbol symbol="__arm__=1"/>
 <definedSymbol symbol="__ARM_ARCH=4"/>
 <definedSymbol symbol="__ARM_ARCH_ISA_ARM=1"/>
@@ -352,23 +397,36 @@
 <definedSymbol symbol="__GXX_TYPEINFO_EQUALITY_INLINE=0"/>
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__USES_INITFINI__=1"/>
+<definedSymbol symbol="__has_include(STR)=__has_include__(STR)"/>
+<definedSymbol symbol="__has_include_next(STR)=__has_include_next__(STR)"/>
+<definedSymbol symbol="__cpp_rtti=199711"/>
+<definedSymbol symbol="__cpp_binary_literals=201304"/>
+<definedSymbol symbol="__cpp_runtime_arrays=198712"/>
+<definedSymbol symbol="__cpp_exceptions=199711"/>
+<definedSymbol symbol="__GCC_IEC_559=0"/>
+<definedSymbol symbol="__GCC_IEC_559_COMPLEX=0"/>
+<definedSymbol symbol="__ARM_32BIT_STATE=1"/>
 </collector>
 </instance>
 <instance id="com.crt.advproject.config.exe.release.1185040974;com.crt.advproject.config.exe.release.1185040974.;com.crt.advproject.gcc.exe.release.1306225994;com.crt.advproject.compiler.input.1188769616">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/arm-none-eabi"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/backward"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include-fixed"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/backward"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=199711L"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
+<definedSymbol symbol="__GNUC__=5"/>
 <definedSymbol symbol="__GNUC_MINOR__=8"/>
+<definedSymbol symbol="__GNUC_MINOR__=4"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=4"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=1"/>
 <definedSymbol symbol="__VERSION__=&quot;4.8.4 20140526 (release) [ARM/embedded-4_8-branch revision 211358]&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;5.4.1 20160609 (release) [ARM/embedded-5-branch revision 237715]&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -393,6 +451,7 @@
 <definedSymbol symbol="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__SIZEOF_POINTER__=4"/>
 <definedSymbol symbol="__GNUG__=4"/>
+<definedSymbol symbol="__GNUG__=5"/>
 <definedSymbol symbol="__SIZE_TYPE__=unsigned int"/>
 <definedSymbol symbol="__PTRDIFF_TYPE__=int"/>
 <definedSymbol symbol="__WCHAR_TYPE__=unsigned int"/>
@@ -433,57 +492,96 @@
 <definedSymbol symbol="__GXX_RTTI=1"/>
 <definedSymbol symbol="__EXCEPTIONS=1"/>
 <definedSymbol symbol="__GXX_ABI_VERSION=1002"/>
+<definedSymbol symbol="__GXX_ABI_VERSION=1009"/>
 <definedSymbol symbol="__SCHAR_MAX__=127"/>
+<definedSymbol symbol="__SCHAR_MAX__=0x7f"/>
 <definedSymbol symbol="__SHRT_MAX__=32767"/>
+<definedSymbol symbol="__SHRT_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__LONG_MAX__=2147483647L"/>
+<definedSymbol symbol="__LONG_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__LONG_LONG_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__LONG_LONG_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__WCHAR_MAX__=4294967295U"/>
+<definedSymbol symbol="__WCHAR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WCHAR_MIN__=0U"/>
 <definedSymbol symbol="__WINT_MAX__=4294967295U"/>
+<definedSymbol symbol="__WINT_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WINT_MIN__=0U"/>
 <definedSymbol symbol="__PTRDIFF_MAX__=2147483647"/>
+<definedSymbol symbol="__PTRDIFF_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIZE_MAX__=4294967295U"/>
+<definedSymbol symbol="__SIZE_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__INTMAX_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INTMAX_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INTMAX_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINTMAX_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINTMAX_C(c)=c ## ULL"/>
 <definedSymbol symbol="__SIG_ATOMIC_MAX__=2147483647"/>
+<definedSymbol symbol="__SIG_ATOMIC_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)"/>
 <definedSymbol symbol="__INT8_MAX__=127"/>
+<definedSymbol symbol="__INT8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT16_MAX__=32767"/>
+<definedSymbol symbol="__INT16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__UINT8_MAX__=255"/>
+<definedSymbol symbol="__UINT8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT16_MAX__=65535"/>
+<definedSymbol symbol="__UINT16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__INT_LEAST8_MAX__=127"/>
+<definedSymbol symbol="__INT_LEAST8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT8_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST16_MAX__=32767"/>
+<definedSymbol symbol="__INT_LEAST16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT16_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT_LEAST32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT32_C(c)=c ## L"/>
 <definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_LEAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INT64_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINT_LEAST8_MAX__=255"/>
+<definedSymbol symbol="__UINT_LEAST8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT8_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST16_MAX__=65535"/>
+<definedSymbol symbol="__UINT_LEAST16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT16_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT_LEAST32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT32_C(c)=c ## UL"/>
 <definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_LEAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINT64_C(c)=c ## ULL"/>
 <definedSymbol symbol="__INT_FAST8_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST8_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST16_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST16_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST32_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST32_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_FAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__UINT_FAST8_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST8_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST16_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST16_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST32_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST32_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_FAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__INTPTR_MAX__=2147483647"/>
+<definedSymbol symbol="__INTPTR_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__UINTPTR_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINTPTR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__FLT_EVAL_METHOD__=0"/>
 <definedSymbol symbol="__DEC_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__FLT_RADIX__=2"/>
@@ -689,6 +787,7 @@
 <definedSymbol symbol="__SIZEOF_PTRDIFF_T__=4"/>
 <definedSymbol symbol="__ARM_SIZEOF_MINIMAL_ENUM=1"/>
 <definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=32"/>
+<definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=4"/>
 <definedSymbol symbol="__arm__=1"/>
 <definedSymbol symbol="__ARM_ARCH=4"/>
 <definedSymbol symbol="__ARM_ARCH_ISA_ARM=1"/>
@@ -706,23 +805,36 @@
 <definedSymbol symbol="__GXX_TYPEINFO_EQUALITY_INLINE=0"/>
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__USES_INITFINI__=1"/>
+<definedSymbol symbol="__has_include(STR)=__has_include__(STR)"/>
+<definedSymbol symbol="__has_include_next(STR)=__has_include_next__(STR)"/>
+<definedSymbol symbol="__cpp_rtti=199711"/>
+<definedSymbol symbol="__cpp_binary_literals=201304"/>
+<definedSymbol symbol="__cpp_runtime_arrays=198712"/>
+<definedSymbol symbol="__cpp_exceptions=199711"/>
+<definedSymbol symbol="__GCC_IEC_559=0"/>
+<definedSymbol symbol="__GCC_IEC_559_COMPLEX=0"/>
+<definedSymbol symbol="__ARM_32BIT_STATE=1"/>
 </collector>
 </instance>
 <instance id="com.crt.advproject.config.exe.release.1185040974;com.crt.advproject.config.exe.release.1185040974.;com.crt.advproject.gas.exe.release.2058821617;com.crt.advproject.assembler.input.912057015">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/arm-none-eabi"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/backward"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include-fixed"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/backward"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=199711L"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
+<definedSymbol symbol="__GNUC__=5"/>
 <definedSymbol symbol="__GNUC_MINOR__=8"/>
+<definedSymbol symbol="__GNUC_MINOR__=4"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=4"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=1"/>
 <definedSymbol symbol="__VERSION__=&quot;4.8.4 20140526 (release) [ARM/embedded-4_8-branch revision 211358]&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;5.4.1 20160609 (release) [ARM/embedded-5-branch revision 237715]&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -747,6 +859,7 @@
 <definedSymbol symbol="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__SIZEOF_POINTER__=4"/>
 <definedSymbol symbol="__GNUG__=4"/>
+<definedSymbol symbol="__GNUG__=5"/>
 <definedSymbol symbol="__SIZE_TYPE__=unsigned int"/>
 <definedSymbol symbol="__PTRDIFF_TYPE__=int"/>
 <definedSymbol symbol="__WCHAR_TYPE__=unsigned int"/>
@@ -787,57 +900,96 @@
 <definedSymbol symbol="__GXX_RTTI=1"/>
 <definedSymbol symbol="__EXCEPTIONS=1"/>
 <definedSymbol symbol="__GXX_ABI_VERSION=1002"/>
+<definedSymbol symbol="__GXX_ABI_VERSION=1009"/>
 <definedSymbol symbol="__SCHAR_MAX__=127"/>
+<definedSymbol symbol="__SCHAR_MAX__=0x7f"/>
 <definedSymbol symbol="__SHRT_MAX__=32767"/>
+<definedSymbol symbol="__SHRT_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__LONG_MAX__=2147483647L"/>
+<definedSymbol symbol="__LONG_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__LONG_LONG_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__LONG_LONG_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__WCHAR_MAX__=4294967295U"/>
+<definedSymbol symbol="__WCHAR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WCHAR_MIN__=0U"/>
 <definedSymbol symbol="__WINT_MAX__=4294967295U"/>
+<definedSymbol symbol="__WINT_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WINT_MIN__=0U"/>
 <definedSymbol symbol="__PTRDIFF_MAX__=2147483647"/>
+<definedSymbol symbol="__PTRDIFF_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIZE_MAX__=4294967295U"/>
+<definedSymbol symbol="__SIZE_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__INTMAX_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INTMAX_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INTMAX_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINTMAX_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINTMAX_C(c)=c ## ULL"/>
 <definedSymbol symbol="__SIG_ATOMIC_MAX__=2147483647"/>
+<definedSymbol symbol="__SIG_ATOMIC_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)"/>
 <definedSymbol symbol="__INT8_MAX__=127"/>
+<definedSymbol symbol="__INT8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT16_MAX__=32767"/>
+<definedSymbol symbol="__INT16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__UINT8_MAX__=255"/>
+<definedSymbol symbol="__UINT8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT16_MAX__=65535"/>
+<definedSymbol symbol="__UINT16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__INT_LEAST8_MAX__=127"/>
+<definedSymbol symbol="__INT_LEAST8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT8_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST16_MAX__=32767"/>
+<definedSymbol symbol="__INT_LEAST16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT16_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT_LEAST32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT32_C(c)=c ## L"/>
 <definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_LEAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INT64_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINT_LEAST8_MAX__=255"/>
+<definedSymbol symbol="__UINT_LEAST8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT8_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST16_MAX__=65535"/>
+<definedSymbol symbol="__UINT_LEAST16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT16_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT_LEAST32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT32_C(c)=c ## UL"/>
 <definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_LEAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINT64_C(c)=c ## ULL"/>
 <definedSymbol symbol="__INT_FAST8_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST8_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST16_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST16_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST32_MAX__=2147483647"/>
+<definedSymbol symbol="__INT_FAST32_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_FAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__UINT_FAST8_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST8_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST16_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST16_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST32_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINT_FAST32_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_FAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__INTPTR_MAX__=2147483647"/>
+<definedSymbol symbol="__INTPTR_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__UINTPTR_MAX__=4294967295U"/>
+<definedSymbol symbol="__UINTPTR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__FLT_EVAL_METHOD__=0"/>
 <definedSymbol symbol="__DEC_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__FLT_RADIX__=2"/>
@@ -1043,6 +1195,7 @@
 <definedSymbol symbol="__SIZEOF_PTRDIFF_T__=4"/>
 <definedSymbol symbol="__ARM_SIZEOF_MINIMAL_ENUM=1"/>
 <definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=32"/>
+<definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=4"/>
 <definedSymbol symbol="__arm__=1"/>
 <definedSymbol symbol="__ARM_ARCH=4"/>
 <definedSymbol symbol="__ARM_ARCH_ISA_ARM=1"/>
@@ -1060,23 +1213,32 @@
 <definedSymbol symbol="__GXX_TYPEINFO_EQUALITY_INLINE=0"/>
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__USES_INITFINI__=1"/>
+<definedSymbol symbol="__has_include(STR)=__has_include__(STR)"/>
+<definedSymbol symbol="__has_include_next(STR)=__has_include_next__(STR)"/>
+<definedSymbol symbol="__cpp_rtti=199711"/>
+<definedSymbol symbol="__cpp_binary_literals=201304"/>
+<definedSymbol symbol="__cpp_runtime_arrays=198712"/>
+<definedSymbol symbol="__cpp_exceptions=199711"/>
+<definedSymbol symbol="__GCC_IEC_559=0"/>
+<definedSymbol symbol="__GCC_IEC_559_COMPLEX=0"/>
+<definedSymbol symbol="__ARM_32BIT_STATE=1"/>
 </collector>
 </instance>
 <instance id="com.crt.advproject.config.exe.release.1185040974;com.crt.advproject.config.exe.release.1185040974.710839792;com.crt.advproject.gcc.exe.release.1306225994.740732878;com.crt.advproject.compiler.input.1254180171">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/arm-none-eabi"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include/c++/4.8.4/backward"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/lib/gcc/arm-none-eabi/4.8.4/include-fixed"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/arm-none-eabi/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include/c++/5.4.1/backward"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+<includePath path="/usr/local/lpcxpresso_8.2.2_650/lpcxpresso/tools/arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=199711L"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
-<definedSymbol symbol="__GNUC__=4"/>
-<definedSymbol symbol="__GNUC_MINOR__=8"/>
-<definedSymbol symbol="__GNUC_PATCHLEVEL__=4"/>
-<definedSymbol symbol="__VERSION__=&quot;4.8.4 20140526 (release) [ARM/embedded-4_8-branch revision 211358]&quot;"/>
+<definedSymbol symbol="__GNUC__=5"/>
+<definedSymbol symbol="__GNUC_MINOR__=4"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=1"/>
+<definedSymbol symbol="__VERSION__=&quot;5.4.1 20160609 (release) [ARM/embedded-5-branch revision 237715]&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -1100,7 +1262,7 @@
 <definedSymbol symbol="__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__SIZEOF_POINTER__=4"/>
-<definedSymbol symbol="__GNUG__=4"/>
+<definedSymbol symbol="__GNUG__=5"/>
 <definedSymbol symbol="__SIZE_TYPE__=unsigned int"/>
 <definedSymbol symbol="__PTRDIFF_TYPE__=int"/>
 <definedSymbol symbol="__WCHAR_TYPE__=unsigned int"/>
@@ -1136,62 +1298,70 @@
 <definedSymbol symbol="__UINT_FAST64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INTPTR_TYPE__=int"/>
 <definedSymbol symbol="__UINTPTR_TYPE__=unsigned int"/>
+<definedSymbol symbol="__has_include(STR)=__has_include__(STR)"/>
+<definedSymbol symbol="__has_include_next(STR)=__has_include_next__(STR)"/>
 <definedSymbol symbol="__GXX_WEAK__=1"/>
 <definedSymbol symbol="__DEPRECATED=1"/>
 <definedSymbol symbol="__GXX_RTTI=1"/>
+<definedSymbol symbol="__cpp_rtti=199711"/>
+<definedSymbol symbol="__cpp_binary_literals=201304"/>
+<definedSymbol symbol="__cpp_runtime_arrays=198712"/>
 <definedSymbol symbol="__EXCEPTIONS=1"/>
-<definedSymbol symbol="__GXX_ABI_VERSION=1002"/>
-<definedSymbol symbol="__SCHAR_MAX__=127"/>
-<definedSymbol symbol="__SHRT_MAX__=32767"/>
-<definedSymbol symbol="__INT_MAX__=2147483647"/>
-<definedSymbol symbol="__LONG_MAX__=2147483647L"/>
-<definedSymbol symbol="__LONG_LONG_MAX__=9223372036854775807LL"/>
-<definedSymbol symbol="__WCHAR_MAX__=4294967295U"/>
+<definedSymbol symbol="__cpp_exceptions=199711"/>
+<definedSymbol symbol="__GXX_ABI_VERSION=1009"/>
+<definedSymbol symbol="__SCHAR_MAX__=0x7f"/>
+<definedSymbol symbol="__SHRT_MAX__=0x7fff"/>
+<definedSymbol symbol="__INT_MAX__=0x7fffffff"/>
+<definedSymbol symbol="__LONG_MAX__=0x7fffffffL"/>
+<definedSymbol symbol="__LONG_LONG_MAX__=0x7fffffffffffffffLL"/>
+<definedSymbol symbol="__WCHAR_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WCHAR_MIN__=0U"/>
-<definedSymbol symbol="__WINT_MAX__=4294967295U"/>
+<definedSymbol symbol="__WINT_MAX__=0xffffffffU"/>
 <definedSymbol symbol="__WINT_MIN__=0U"/>
-<definedSymbol symbol="__PTRDIFF_MAX__=2147483647"/>
-<definedSymbol symbol="__SIZE_MAX__=4294967295U"/>
-<definedSymbol symbol="__INTMAX_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__PTRDIFF_MAX__=0x7fffffff"/>
+<definedSymbol symbol="__SIZE_MAX__=0xffffffffU"/>
+<definedSymbol symbol="__INTMAX_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INTMAX_C(c)=c ## LL"/>
-<definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINTMAX_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINTMAX_C(c)=c ## ULL"/>
-<definedSymbol symbol="__SIG_ATOMIC_MAX__=2147483647"/>
+<definedSymbol symbol="__SIG_ATOMIC_MAX__=0x7fffffff"/>
 <definedSymbol symbol="__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)"/>
-<definedSymbol symbol="__INT8_MAX__=127"/>
-<definedSymbol symbol="__INT16_MAX__=32767"/>
-<definedSymbol symbol="__INT32_MAX__=2147483647L"/>
-<definedSymbol symbol="__INT64_MAX__=9223372036854775807LL"/>
-<definedSymbol symbol="__UINT8_MAX__=255"/>
-<definedSymbol symbol="__UINT16_MAX__=65535"/>
-<definedSymbol symbol="__UINT32_MAX__=4294967295UL"/>
-<definedSymbol symbol="__UINT64_MAX__=18446744073709551615ULL"/>
-<definedSymbol symbol="__INT_LEAST8_MAX__=127"/>
+<definedSymbol symbol="__INT8_MAX__=0x7f"/>
+<definedSymbol symbol="__INT16_MAX__=0x7fff"/>
+<definedSymbol symbol="__INT32_MAX__=0x7fffffffL"/>
+<definedSymbol symbol="__INT64_MAX__=0x7fffffffffffffffLL"/>
+<definedSymbol symbol="__UINT8_MAX__=0xff"/>
+<definedSymbol symbol="__UINT16_MAX__=0xffff"/>
+<definedSymbol symbol="__UINT32_MAX__=0xffffffffUL"/>
+<definedSymbol symbol="__UINT64_MAX__=0xffffffffffffffffULL"/>
+<definedSymbol symbol="__INT_LEAST8_MAX__=0x7f"/>
 <definedSymbol symbol="__INT8_C(c)=c"/>
-<definedSymbol symbol="__INT_LEAST16_MAX__=32767"/>
+<definedSymbol symbol="__INT_LEAST16_MAX__=0x7fff"/>
 <definedSymbol symbol="__INT16_C(c)=c"/>
-<definedSymbol symbol="__INT_LEAST32_MAX__=2147483647L"/>
+<definedSymbol symbol="__INT_LEAST32_MAX__=0x7fffffffL"/>
 <definedSymbol symbol="__INT32_C(c)=c ## L"/>
-<definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807LL"/>
+<definedSymbol symbol="__INT_LEAST64_MAX__=0x7fffffffffffffffLL"/>
 <definedSymbol symbol="__INT64_C(c)=c ## LL"/>
-<definedSymbol symbol="__UINT_LEAST8_MAX__=255"/>
+<definedSymbol symbol="__UINT_LEAST8_MAX__=0xff"/>
 <definedSymbol symbol="__UINT8_C(c)=c"/>
-<definedSymbol symbol="__UINT_LEAST16_MAX__=65535"/>
+<definedSymbol symbol="__UINT_LEAST16_MAX__=0xffff"/>
 <definedSymbol symbol="__UINT16_C(c)=c"/>
-<definedSymbol symbol="__UINT_LEAST32_MAX__=4294967295UL"/>
+<definedSymbol symbol="__UINT_LEAST32_MAX__=0xffffffffUL"/>
 <definedSymbol symbol="__UINT32_C(c)=c ## UL"/>
-<definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
+<definedSymbol symbol="__UINT_LEAST64_MAX__=0xffffffffffffffffULL"/>
 <definedSymbol symbol="__UINT64_C(c)=c ## ULL"/>
-<definedSymbol symbol="__INT_FAST8_MAX__=2147483647"/>
-<definedSymbol symbol="__INT_FAST16_MAX__=2147483647"/>
-<definedSymbol symbol="__INT_FAST32_MAX__=2147483647"/>
-<definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807LL"/>
-<definedSymbol symbol="__UINT_FAST8_MAX__=4294967295U"/>
-<definedSymbol symbol="__UINT_FAST16_MAX__=4294967295U"/>
-<definedSymbol symbol="__UINT_FAST32_MAX__=4294967295U"/>
-<definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
-<definedSymbol symbol="__INTPTR_MAX__=2147483647"/>
-<definedSymbol symbol="__UINTPTR_MAX__=4294967295U"/>
+<definedSymbol symbol="__INT_FAST8_MAX__=0x7fffffff"/>
+<definedSymbol symbol="__INT_FAST16_MAX__=0x7fffffff"/>
+<definedSymbol symbol="__INT_FAST32_MAX__=0x7fffffff"/>
+<definedSymbol symbol="__INT_FAST64_MAX__=0x7fffffffffffffffLL"/>
+<definedSymbol symbol="__UINT_FAST8_MAX__=0xffffffffU"/>
+<definedSymbol symbol="__UINT_FAST16_MAX__=0xffffffffU"/>
+<definedSymbol symbol="__UINT_FAST32_MAX__=0xffffffffU"/>
+<definedSymbol symbol="__UINT_FAST64_MAX__=0xffffffffffffffffULL"/>
+<definedSymbol symbol="__INTPTR_MAX__=0x7fffffff"/>
+<definedSymbol symbol="__UINTPTR_MAX__=0xffffffffU"/>
+<definedSymbol symbol="__GCC_IEC_559=0"/>
+<definedSymbol symbol="__GCC_IEC_559_COMPLEX=0"/>
 <definedSymbol symbol="__FLT_EVAL_METHOD__=0"/>
 <definedSymbol symbol="__DEC_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__FLT_RADIX__=2"/>
@@ -1395,8 +1565,9 @@
 <definedSymbol symbol="__SIZEOF_WCHAR_T__=4"/>
 <definedSymbol symbol="__SIZEOF_WINT_T__=4"/>
 <definedSymbol symbol="__SIZEOF_PTRDIFF_T__=4"/>
+<definedSymbol symbol="__ARM_32BIT_STATE=1"/>
 <definedSymbol symbol="__ARM_SIZEOF_MINIMAL_ENUM=1"/>
-<definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=32"/>
+<definedSymbol symbol="__ARM_SIZEOF_WCHAR_T=4"/>
 <definedSymbol symbol="__arm__=1"/>
 <definedSymbol symbol="__ARM_ARCH=4"/>
 <definedSymbol symbol="__ARM_ARCH_ISA_ARM=1"/>
@@ -1405,8 +1576,6 @@
 <definedSymbol symbol="__ARMEL__=1"/>
 <definedSymbol symbol="__SOFTFP__=1"/>
 <definedSymbol symbol="__VFP_FP__=1"/>
-<definedSymbol symbol="__ARM_FP=12"/>
-<definedSymbol symbol="__ARM_NEON_FP=4"/>
 <definedSymbol symbol="__THUMB_INTERWORK__=1"/>
 <definedSymbol symbol="__ARM_ARCH_4T__=1"/>
 <definedSymbol symbol="__ARM_PCS=1"/>

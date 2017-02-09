@@ -49,7 +49,7 @@
 #define __lpc43xx_UART_H
 
 /* Includes ------------------------------------------------------------------- */
-#include "lpc43xx.h"
+#include "lpc43xx.h" // causes an error, the header in the inc folder is upercase
 #include "lpc_types.h"
 
 

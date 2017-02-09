@@ -36,7 +36,7 @@ libpixy_m0.a: $(OBJS) $(USER_OBJS)
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(ARCHIVES) libpixy_m0.a
+	-$(RM) $(OBJS)$(ARCHIVES)$(C_DEPS) libpixy_m0.a
 	-@echo ' '
 
 post-build:

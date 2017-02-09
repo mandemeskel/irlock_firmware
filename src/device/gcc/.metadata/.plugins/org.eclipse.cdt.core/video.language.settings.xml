@@ -4,7 +4,7 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="com.crt.advproject.GCCBuildCommandParser">
 				<language id="org.eclipse.cdt.core.gcc">
-					<resource project-relative-path="src/cr_start_m0.c">
+					<resource project-relative-path="src/crp.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -40,7 +40,7 @@
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/crp.c">
+					<resource project-relative-path="src/cr_start_m0.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -78,24 +78,6 @@
 					</resource>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<resource project-relative-path="src/progpt.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
 					<resource project-relative-path="src/progblobs.cpp">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
@@ -114,7 +96,135 @@
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/cr_startup_lpc43xx.cpp">
+					<resource project-relative-path="src/button.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/blob.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/analogdig.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/cr_cpp_config.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/flash.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/i2c.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/uart.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/blobs.cpp">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -150,7 +260,7 @@
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/blob.cpp">
+					<resource project-relative-path="src/progvideo.cpp">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -168,7 +278,79 @@
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/progvideo.cpp">
+					<resource project-relative-path="src/exec.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/conncomp.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/colorlut.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/cr_startup_lpc43xx.cpp">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/pixy_m4/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M4" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="IPC_MASTER" value=""/>
+						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="PIXY" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC43XX__" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/qqueue.cpp">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -222,187 +404,7 @@
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/conncomp.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/exec.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/cr_cpp_config.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/i2c.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/flash.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/colorlut.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/blobs.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/qqueue.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/analogdig.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/button.cpp">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="includePath" name="/pixy_m4/inc">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
-						<entry kind="macro" name="CORE_M4" value=""/>
-						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
-						<entry kind="macro" name="IPC_MASTER" value=""/>
-						<entry kind="macro" name="LPC43_MULTICORE_M0APP" value=""/>
-						<entry kind="macro" name="NDEBUG" value=""/>
-						<entry kind="macro" name="PIXY" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC43XX__" value=""/>
-						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
-						<entry kind="macro" name="__NEWLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/uart.cpp">
+					<resource project-relative-path="src/progpt.cpp">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
