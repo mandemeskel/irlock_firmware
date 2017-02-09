@@ -20,6 +20,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/lpc43xx_i2c.c">
@@ -38,6 +39,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/cr_start_m0.c">
@@ -56,6 +58,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/system_LPC43xx.c">
@@ -74,6 +77,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 				</language>
@@ -94,6 +98,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/button.cpp">
@@ -112,6 +117,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/blob.cpp">
@@ -168,6 +174,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/flash.cpp">
@@ -186,6 +193,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/i2c.cpp">
@@ -204,6 +212,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/uart.cpp">
@@ -222,6 +231,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/blobs.cpp">
@@ -240,6 +250,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/main_m4.cpp">
@@ -258,6 +269,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/progvideo.cpp">
@@ -276,6 +288,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/exec.cpp">
@@ -294,6 +307,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/conncomp.cpp">
@@ -312,6 +326,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/colorlut.cpp">
@@ -330,6 +345,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/cr_startup_lpc43xx.cpp">
@@ -348,6 +364,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/qqueue.cpp">
@@ -366,6 +383,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/serial.cpp">
@@ -384,6 +402,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/spi.cpp">
@@ -402,6 +421,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="src/progpt.cpp">
@@ -420,6 +440,7 @@
 						<entry kind="macro" name="__CODE_RED" value=""/>
 						<entry kind="macro" name="__LPC43XX__" value=""/>
 						<entry kind="macro" name="__MULTICORE_MASTER" value=""/>
+						<entry kind="macro" name="__MULTICORE_MASTER_SLAVE_M0APP" value=""/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 				</language>

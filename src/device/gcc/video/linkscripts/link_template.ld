@@ -1,7 +1,7 @@
 ENTRY(ResetISR)
 
-INCLUDE "video_Release_lib.ld"
-INCLUDE "video_Release_mem.ld"
+INCLUDE "video_Release_library.ld"
+INCLUDE "video_Release_memory.ld"
 
 GROUP(libcr_nohost.a libcr_eabihelpers.a)
 

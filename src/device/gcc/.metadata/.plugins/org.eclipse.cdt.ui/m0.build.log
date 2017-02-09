@@ -1,36 +1,6 @@
-15:35:11 **** Incremental Build of configuration Release for project m0 ****
+15:57:17 **** Incremental Build of configuration Release for project m0 ****
 make -r all 
-Building file: ../src/cr_startup_lpc43xx-m0app.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DIPC_SLAVE -DPIXY -D__REDLIB__ -D__MULTICORE_M0APP -DNDEBUG -D__CODE_RED -DCORE_M0 -D__LPC43XX__ -DCORE_M0APP -I"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/m0/inc" -I"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/pixy_m0/inc" -O0 -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc43xx-m0app.d" -MT"src/cr_startup_lpc43xx-m0app.o" -MT"src/cr_startup_lpc43xx-m0app.d" -o "src/cr_startup_lpc43xx-m0app.o" "../src/cr_startup_lpc43xx-m0app.c"
-Finished building: ../src/cr_startup_lpc43xx-m0app.c
- 
-Building file: ../src/frame_m0.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DIPC_SLAVE -DPIXY -D__REDLIB__ -D__MULTICORE_M0APP -DNDEBUG -D__CODE_RED -DCORE_M0 -D__LPC43XX__ -DCORE_M0APP -I"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/m0/inc" -I"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/pixy_m0/inc" -O0 -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/frame_m0.d" -MT"src/frame_m0.o" -MT"src/frame_m0.d" -o "src/frame_m0.o" "../src/frame_m0.c"
-Finished building: ../src/frame_m0.c
- 
-Building file: ../src/main_m0.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DIPC_SLAVE -DPIXY -D__REDLIB__ -D__MULTICORE_M0APP -DNDEBUG -D__CODE_RED -DCORE_M0 -D__LPC43XX__ -DCORE_M0APP -I"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/m0/inc" -I"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/pixy_m0/inc" -O0 -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/main_m0.d" -MT"src/main_m0.o" -MT"src/main_m0.d" -o "src/main_m0.o" "../src/main_m0.c"
-../src/main_m0.c: In function 'main':
-../src/main_m0.c:43:7: warning: unused variable 'i' [-Wunused-variable]
-   int i = 0;
-       ^
-Finished building: ../src/main_m0.c
- 
-Building target: m0.axf
-Invoking: MCU Linker
-arm-none-eabi-gcc -nostdlib -L"/home/michael/Downloads/MESA/IR_Lock_firmware/irlock_firmware/src/device/gcc/pixy_m0/Release" -Xlinker -Map="m0.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "m0_Release.ld" -o "m0.axf"  ./src/cr_startup_lpc43xx-m0app.o ./src/exec_m0.o ./src/frame_m0.o ./src/main_m0.o ./src/qqueue.o ./src/rls_m0.o   -lpixy_m0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --remove-section=.ARM.attributes --redefine-sym __vectors_start__=__vectors_start___core_m0app --keep-symbol __vectors_start___core_m0app --redefine-sym _data=__start_data_core_m0app --keep-symbol __start_data_core_m0app --redefine-sym _edata=__end_data_core_m0app --keep-symbol __end_data_core_m0app --remove-section=".bss*" --remove-section=".noinit*" --rename-section .ARM.exidx=".core_m0app.ARM.exidx" --rename-section .ARM.extab=".core_m0app.ARM.extab" --rename-section .text=".core_m0app" --rename-section .data=".core_m0app.data" --rename-section .data_RAM2=".core_m0app.data_RAM2" --rename-section .data_RAM3=".core_m0app.data_RAM3" --rename-section .data_RAM4=".core_m0app.data_RAM4" --rename-section .data_RAM5=".core_m0app.data_RAM5" "m0.axf" "m0.axf.o"
-copy from `m0.axf' [elf32-littlearm] to `m0.axf.o' [elf32-littlearm]
-Finished building target: m0.axf
- 
-make --no-print-directory post-build
-Performing post-build steps
-arm-none-eabi-size "m0.axf"; # arm-none-eabi-objcopy -v -O binary "m0.axf" "m0.bin" ; # checksum -p LPC4330_M0 -d "m0.bin";
-   text	   data	    bss	    dec	    hex	filename
-   8824	     16	     52	   8892	   22bc	m0.axf
- 
+make: Nothing to be done for `all'.
 
-15:35:12 Build Finished (took 568ms)
+15:57:17 Build Finished (took 64ms)
 
